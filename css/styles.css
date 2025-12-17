@@ -1,4 +1,66 @@
 /* Los estilos se aplican a todo el documento */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+/*fondo con color degradado*/
+/*body {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(
+        to top,
+        rgba(2, 6, 23, 1) 0%,
+        rgba(15, 23, 42, 0.85) 55%,
+        rgba(59, 130, 246, 0.8) 100%
+    );
+    color: #e5e7eb;
+}*/
+
+
+
+/*fondo con imagen*/
 body {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url("../assets/images/background1.jpg");
+    /* ruta a tu imagen */
+    background-size: cover;
+    /* cubre toda la pantalla */
+    background-position: center;
+    /* centrada */
+    background-repeat: no-repeat;
+    /* no se repite */
+    background-attachment: fixed;
+    /* efecto elegante al hacer scroll */
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
     
+}
+
+
+.profile {
+    width: 400px;
+    height: 400px;
+    border-radius: 2%;
+    box-shadow:0 10px 30px rgba(0, 0, 0, 0.288)
+}
+
+
+section {
+    background: rgba(255, 255, 255, 0.288);
+    backdrop-filter: blur(6px);
+    color: #020617;
+    border-radius: 14px;
+    padding: 1.5rem;
+    margin: 2rem auto;
+    max-width: 900px;
+    box-shadow: 0 10px 30px rgba(34, 2, 2, 0.25);
+    color: #0a0303;
+}
+
+
+
+.icon {
+    width: 32px;
+    height: 32px;
 }
